@@ -1,0 +1,13 @@
+
+
+l1 = [1,2,3]
+l2 = [1,2,3]
+
+print( l1 == l2) # value is compared --> True
+print(l1 is l2) # object refernce is compared -> False
+
+print(True == 1) # True
+print (False == 0) # True
+print(True is 1) # False
+
+print(True + 4) # result is 5, ie True is treated as 1
