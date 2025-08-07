@@ -62,9 +62,9 @@ print(math.trunc(-3.7)) #-3
 #octa, hexa and binary
 # return the decimal value
 
-print(0o20) # 16
-print(0xFF) # 255
-print(0b1000) # 8
+print(0o20) # 16 -> 8^1 * 2 + 8^0 * 0 
+print(0xFF) # 255 -> 16^1 * 15 + 16^0 * 15
+print(0b1000) # 8 -> 2^3 * 1 + 2^2 * 0 + 2^1 * 0 + 2^0 * 0
 
 
 #takes decimal value return octa or hexa or binary
